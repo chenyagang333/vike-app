@@ -1,6 +1,7 @@
 <template>
   <div id="page-container">
     <div id="sidebar">
+      <Link href="/star-wars"><aaa /></Link>
       <a href="/" id="logo-container">
         <img src="./logo.svg" height="64" width="64" alt="logo" />
       </a>
@@ -15,6 +16,7 @@
 <script lang="ts" setup>
 import Link from './Link.vue'
 import './css/index.css'
+import aaa from '../components/aaa.vue';
 </script>
 
 <style>
